@@ -1,0 +1,23 @@
+{
+  "name": "agri-platform",
+  "version": "1.0.0",
+  "description": "Full-stack Kenyan agricultural mechanization and escrow platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix agri-platform-backend\" \"npm run dev --prefix agri-platform-web\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agriculture",
+    "mechanization",
+    "escrow",
+    "mpesa",
+    "kenya"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
